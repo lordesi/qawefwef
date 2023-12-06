@@ -98,16 +98,17 @@
  .progress-color1 {
 	 fill: #353741;
 }
- #action-title {
-	 position: absolute;
-	 font-size: 8px;
-	 left: 50%;
-	 margin-top: 0;
-	 transform: translate(-50%, -50%);
-	 background: #1f2025;
-	 padding: 5px 20px;
-	 border-radius: 20px;
-	 border: solid #636779 1px;
+#action-title {
+  position: absolute;
+  font-size: 8px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #1f2025;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: solid #636779 1px;
+  margin: 0; /* Aggiunto per assicurare che non ci siano margini aggiunti */
 }
  .actions {
 	 display: flex;
