@@ -1,5 +1,5 @@
 //progress bars overlay
-const radius = 0,
+const radius = 90,
   padding = 50,
   radians = 2 * Math.PI;
 const dimension = 2 * radius + 2 * padding,
