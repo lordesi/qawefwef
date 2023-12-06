@@ -53,7 +53,7 @@ elapsedPercent = 0;
 let seconds = 60;
 let minutes;
 let timer;
-let breakTime = false;
+let breakTime = fase;
 
 //start timer
 startButton.addEventListener('click', () => {
